@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-03T22:08:39 NZST" name="Default suite" finished-at="2022-08-03T22:09:27 NZST" duration-ms="48378">
+    <groups>
+    </groups>
+    <test started-at="2022-08-03T22:08:39 NZST" name="Default test" finished-at="2022-08-03T22:09:27 NZST" duration-ms="48378">
+      <class name="BuggyCarsRatingTestcases">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:BuggyCarsRatingTestcases@2dc54ad4]" started-at="2022-08-03T22:08:39 NZST" name="openBrowser" finished-at="2022-08-03T22:08:43 NZST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="launchValidateHomePage()[pri:1, instance:BuggyCarsRatingTestcases@2dc54ad4]" started-at="2022-08-03T22:08:43 NZST" name="launchValidateHomePage" finished-at="2022-08-03T22:08:50 NZST" duration-ms="6774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchValidateHomePage -->
+        <test-method signature="userRegistration()[pri:2, instance:BuggyCarsRatingTestcases@2dc54ad4]" started-at="2022-08-03T22:08:50 NZST" name="userRegistration" finished-at="2022-08-03T22:08:58 NZST" duration-ms="8122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+        <test-method signature="userLogin()[pri:3, instance:BuggyCarsRatingTestcases@2dc54ad4]" started-at="2022-08-03T22:08:58 NZST" name="userLogin" finished-at="2022-08-03T22:09:06 NZST" duration-ms="8003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="profileUpdate()[pri:4, instance:BuggyCarsRatingTestcases@2dc54ad4]" started-at="2022-08-03T22:09:06 NZST" name="profileUpdate" finished-at="2022-08-03T22:09:16 NZST" duration-ms="9889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- profileUpdate -->
+        <test-method signature="navigationPagesAndVote()[pri:5, instance:BuggyCarsRatingTestcases@2dc54ad4]" started-at="2022-08-03T22:09:16 NZST" name="navigationPagesAndVote" finished-at="2022-08-03T22:09:27 NZST" duration-ms="11184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationPagesAndVote -->
+      </class> <!-- BuggyCarsRatingTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
