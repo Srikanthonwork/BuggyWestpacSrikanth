@@ -1,0 +1,21 @@
+How to Run Automation Script Created 
+Tools used 
+Eclipse IDE : Version: 2022-06 (4.24.0) with Maven integrated 
+testNG
+JRE System Library[JavaSE-17]
+Maven adding dependencies under pom.xml
+Langauge : Java
+
+Structure of Testcase 
+1. Application Launch and UI Validation 
+2. User Regisration 
+3. User Login 
+4. ProfileUpdates
+5. Navigation to sub screen Popular Make
+   Add comment and Vote 
+   Logout
+   
+Before executing 
+1. Open BuggyCarsRatingTestcases.java
+Update public string value email to any new one and run using testNG   
+
