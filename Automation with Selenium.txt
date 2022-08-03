@@ -5,6 +5,7 @@ testNG
 JRE System Library[JavaSE-17]
 Maven adding dependencies under pom.xml
 Langauge : Java
+selenium chrome driver
 
 Structure of Testcase 
 1. Application Launch and UI Validation 
@@ -14,6 +15,43 @@ Structure of Testcase
 5. Navigation to sub screen Popular Make
    Add comment and Vote 
    Logout
+   
+How i setup 
+1. Installed Eclipse IDE with Maven 
+2. Created a Java project 
+3. Changed to Maven 
+4. In Pom.xml added dependencies
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.3.0</version>
+</dependency>
+
+  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-chrome-driver</artifactId>
+    <version>4.3.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-firefox-driver</artifactId>
+    <version>4.3.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.6.1</version>
+   </dependency>
+5. Installed testNG through eclipse 
+6. Added selenium-chrome-driver
+7. created a class to write the codes 
+   
    
 Before executing 
 1. Open BuggyCarsRatingTestcases.java
